@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="garage">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#151a14">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Conceito de catálogo digital para explorar os modelos apresentados pela Walk Machine.">
+    <title>Walk Machine — mobilidade elétrica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body data-theme="garage">
+    <a class="skip-link" href="#catalogo">Pular para os modelos</a>
+    <div class="announcement"><span class="pulse-dot" aria-hidden="true"></span> CONCEITO DE EXPERIÊNCIA DIGITAL · WALK MACHINE</div>
+
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Walk Machine, início">
+        <span class="brand-symbol" aria-hidden="true">W<span>M</span></span>
+        <span class="brand-wordmark"><strong>WALK</strong><span>MACHINE</span></span>
+      </a>
+      <nav class="primary-nav" aria-label="Navegação principal">
+        <a href="#catalogo">Modelos</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#referencias">Referências</a>
+      </nav>
+      <a class="header-contact" href="https://wa.me/5511982372996" target="_blank" rel="noopener noreferrer">Falar com a equipe <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="inicio">
+      <section class="visual-controls" aria-label="Escolha uma direção visual para o protótipo">
+        <div class="controls-copy">
+          <span class="eyebrow">TRÊS DIREÇÕES PARA EXPLORAR</span>
+          <span class="controls-note">Cada opção muda a composição e o clima da página.</span>
+        </div>
+        <div class="theme-switch" role="group" aria-label="Direções visuais">
+          <button class="theme-button is-active" type="button" data-theme="garage" aria-pressed="true"><span class="theme-swatch swatch-garage" aria-hidden="true"></span>Garagem</button>
+          <button class="theme-button" type="button" data-theme="city" aria-pressed="false"><span class="theme-swatch swatch-city" aria-hidden="true"></span>Cidade</button>
+          <button class="theme-button" type="button" data-theme="editorial" aria-pressed="false"><span class="theme-swatch swatch-editorial" aria-hidden="true"></span>Editorial</button>
+        </div>
+      </section>
+
+      <section class="hero hero-garage" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="hero-kicker"><span>WM</span> ELÉTRICA · SUA PRÓXIMA ROTA</p>
+          <h1 id="hero-title">Escolha um caminho.<br><em>Descubra o veículo.</em></h1>
+          <p class="hero-description">Explore bicicletas, scooters, patinetes e triciclos apresentados no catálogo da Walk Machine. Compare opções e fale com a equipe sobre o modelo que chamou sua atenção.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#catalogo">Explorar modelos <span aria-hidden="true">↓</span></a>
+            <a class="button button-quiet" href="https://wa.me/5511982372996?text=Oi%2C%20vi%20o%20conceito%20digital%20da%20Walk%20Machine%20e%20quero%20conhecer%20melhor%20um%20modelo." target="_blank" rel="noopener noreferrer">Conversar no WhatsApp <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="catalog-notice">Preços e produtos são os que aparecem no PDF recebido e precisam ser confirmados com a loja.</p>
+        </div>
+        <div class="hero-visual" aria-label="Tuc Tuc elétrico mostrado no catálogo da Walk Machine">
+          <img src="assets/wm-page-02.webp" alt="Tuc Tuc elétrico em imagem recortada do catálogo enviado pela Walk Machine">
+          <div class="hero-visual-label"><span>NO CATÁLOGO</span><strong>Tuc Tuc elétrico</strong><small>Três rodas · conforto para o dia a dia</small></div>
+          <span class="hero-orbit orbit-one" aria-hidden="true"></span>
+          <span class="hero-orbit orbit-two" aria-hidden="true"></span>
+        </div>
+        <div class="hero-index" aria-hidden="true"><span>WALK</span><span>01—03</span></div>
+      </section>
+
+      <section class="category-section" id="categorias" aria-labelledby="categories-title">
+        <div class="section-heading compact-heading">
+          <div><p class="eyebrow">ENCONTRE SEU TIPO DE ROTA</p><h2 id="categories-title">O que você quer explorar?</h2></div>
+          <p>Comece pela categoria e descubra os modelos apresentados no material.</p>
+        </div>
+        <div class="category-list" role="group" aria-label="Filtrar por categoria">
+          <button type="button" class="filter-button is-selected" data-filter="all" aria-pressed="true">Todos <span>25</span></button>
+          <button type="button" class="filter-button" data-filter="scooter" aria-pressed="false">Scooters</button>
+          <button type="button" class="filter-button" data-filter="bike" aria-pressed="false">Bikes elétricas</button>
+          <button type="button" class="filter-button" data-filter="moto" aria-pressed="false">Motos elétricas</button>
+          <button type="button" class="filter-button" data-filter="triciclo" aria-pressed="false">Triciclos</button>
+          <button type="button" class="filter-button" data-filter="patinete" aria-pressed="false">Patinetes</button>
+          <button type="button" class="filter-button" data-filter="infantil" aria-pressed="false">Infantil</button>
+        </div>
+      </section>
+
+      <section class="catalog-section" id="catalogo" aria-labelledby="catalog-title">
+        <div class="catalog-topline">
+          <div class="section-heading">
+            <div><p class="eyebrow">CATÁLOGO RECEBIDO DA LOJA</p><h2 id="catalog-title">Modelos para conhecer</h2></div>
+            <p>Encontre um modelo, abra os detalhes e chame a equipe já sabendo o que quer perguntar.</p>
+          </div>
+          <div class="catalog-tools">
+            <label class="search-box"><span class="sr-only">Buscar modelo</span><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Buscar por modelo" autocomplete="off"></label>
+            <label class="sort-select"><span class="sr-only">Ordenar modelos</span><select id="sortSelect"><option value="catalog">Ordem do catálogo</option><option value="price-up">Menor preço do PDF</option><option value="price-down">Maior preço do PDF</option></select></label>
+          </div>
+        </div>
+        <div class="result-meta"><span id="resultCount" aria-live="polite">24 modelos</span><span class="price-disclaimer">Valores impressos no PDF recebido · sujeitos a confirmação</span></div>
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+        <div class="empty-state" id="emptyState" hidden><strong>Nenhum modelo encontrado.</strong><span>Tente outro nome ou escolha uma categoria diferente.</span></div>
+      </section>
+
+      <section class="reference-section" id="referencias" aria-labelledby="references-title">
+        <div class="reference-intro"><p class="eyebrow">EXEMPLOS DE MERCADO · FORA DO CATÁLOGO WM</p><h2 id="references-title">Outros formatos de mobilidade elétrica</h2><p>Estas referências ajudam a mostrar possibilidades do segmento. Não indicam venda, parceria ou disponibilidade na Walk Machine.</p></div>
+        <article class="reference-card"><div class="reference-mark" aria-hidden="true">E</div><div><span class="reference-type">BIKE ELÉTRICA · REFERÊNCIA EXTERNA</span><h3>Caloi E-Vibe Rush</h3><p>Uma e-bike urbana de referência, com motor de 250 W e autonomia publicada de até 25 km por bateria.</p><a href="https://caloi.com/produto/e-vibe-rush/" target="_blank" rel="noopener noreferrer">Ver ficha oficial da Caloi <span aria-hidden="true">↗</span></a></div></article>
+        <article class="reference-card"><div class="reference-mark mark-three" aria-hidden="true">3</div><div><span class="reference-type">TRICICLO ELÉTRICO · REFERÊNCIA EXTERNA</span><h3>Shineray PT3 Triciclo</h3><p>Um exemplo de triciclo elétrico com bateria removível de 60 V e 20 Ah; o fabricante informa autonomia estimada de até 40 km.</p><a href="https://www.shineray.com.br/produto/pt3-triciclo/" target="_blank" rel="noopener noreferrer">Ver ficha oficial da Shineray <span aria-hidden="true">↗</span></a></div></article>
+      </section>
+
+      <section class="closing-cta" aria-labelledby="closing-title">
+        <div><p class="eyebrow">ACHOU UM MODELO?</p><h2 id="closing-title">A conversa começa<br>com o que chamou sua atenção.</h2></div>
+        <p>Chame a equipe indicando o modelo. Assim fica fácil perguntar sobre versão, preço e disponibilidade atual.</p>
+        <a class="button button-primary" href="https://wa.me/5511982372996?text=Oi%2C%20estou%20explorando%20os%20modelos%20da%20Walk%20Machine.%20Quero%20saber%20mais%20sobre%20um%20modelo." target="_blank" rel="noopener noreferrer">Falar com a Walk Machine <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <aside class="compare-tray" id="compareTray" aria-live="polite" hidden>
+      <div class="compare-tray-copy"><strong id="compareCount">0 selecionados</strong><span>Escolha até três modelos para comparar.</span></div>
+      <div class="compare-actions"><button id="compareButton" type="button" class="button button-primary">Comparar</button><button id="clearCompare" type="button" class="text-button">Limpar</button></div>
+    </aside>
+
+    <section class="compare-panel" id="comparePanel" hidden aria-labelledby="compare-title">
+      <div class="compare-panel-heading"><div><p class="eyebrow">SUA LISTA</p><h2 id="compare-title">Compare e pergunte</h2></div><button id="closeCompare" class="icon-close" type="button" aria-label="Fechar comparação">×</button></div>
+      <div class="compare-table-wrap" id="compareTable"></div>
+      <a id="compareWhatsApp" class="button button-primary" href="#" target="_blank" rel="noopener noreferrer">Perguntar sobre estes modelos <span aria-hidden="true">↗</span></a>
+      <p class="compare-footnote">A seleção apenas prepara uma mensagem. Nada é enviado sem você abrir o WhatsApp e tocar em enviar.</p>
+    </section>
+
+    <dialog class="product-dialog" id="productDialog" aria-labelledby="dialogTitle">
+      <button class="icon-close dialog-close" type="button" aria-label="Fechar detalhes">×</button>
+      <div class="dialog-image"><img id="dialogImage" src="" alt=""></div>
+      <div class="dialog-copy"><p class="eyebrow" id="dialogCategory"></p><h2 id="dialogTitle"></h2><p class="dialog-price" id="dialogPrice"></p><p id="dialogDescription"></p><p class="dialog-note">Informações e preço transcritos do PDF recebido. Confirme a versão, o preço e a disponibilidade atual diretamente com a equipe.</p><a id="dialogWhatsApp" class="button button-primary" href="#" target="_blank" rel="noopener noreferrer">Perguntar sobre este modelo <span aria-hidden="true">↗</span></a><small id="dialogPage"></small></div>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <footer class="site-footer"><a class="brand footer-brand" href="#inicio"><span class="brand-symbol" aria-hidden="true">W<span>M</span></span><span class="brand-wordmark"><strong>WALK</strong><span>MACHINE</span></span></a><p>Conceito demonstrativo de experiência digital.<br>Produtos e valores apresentados conforme o catálogo recebido; confirme dados atuais com a loja.</p><a href="https://wa.me/5511982372996" target="_blank" rel="noopener noreferrer">WhatsApp <span aria-hidden="true">↗</span></a></footer>
+    <noscript><p class="noscript">Ative o JavaScript para buscar e comparar os modelos.</p></noscript>
+  </body>
+</html>
